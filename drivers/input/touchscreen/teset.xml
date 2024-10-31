@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="灯组控制" RangeStart="1" RangeEnd="2047">
+    <GroupRange Name="背景音乐" RangeStart="1" RangeEnd="255">
+      <GroupAddress Name="背景音乐测试" Address="0/0/1" />
+      <GroupAddress Name="背景音乐固定音量" Address="0/0/2" />
+      <GroupAddress Name="新建群组地址" Address="0/0/3" />
+    </GroupRange>
+    <GroupRange Name="背景音乐固定音量" RangeStart="256" RangeEnd="511">
+      <GroupAddress Name="餐厅背景音乐音量固定4" Address="0/1/0" />
+    </GroupRange>
+    <GroupRange Name="面板场景" RangeStart="512" RangeEnd="767">
+      <GroupAddress Name="客厅明亮场景" Address="0/2/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅休闲场景" Address="0/2/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅柔和场景" Address="0/2/2" />
+      <GroupAddress Name="客厅会客场景" Address="0/2/3" />
+      <GroupAddress Name="客厅全开关场景" Address="0/2/4" />
+      <GroupAddress Name="餐厅明亮场景" Address="0/2/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅休闲场景" Address="0/2/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅柔和场景" Address="0/2/7" />
+      <GroupAddress Name="餐厅全开关场景" Address="0/2/8" />
+      <GroupAddress Name="客厅全调光地址" Address="0/2/9" />
+      <GroupAddress Name="客厅全调色地址" Address="0/2/10" />
+      <GroupAddress Name="餐厨全调光地址" Address="0/2/11" />
+      <GroupAddress Name="餐厨全调色地址" Address="0/2/12" />
+      <GroupAddress Name="西卧室明亮场景" Address="0/2/13" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室休闲场景" Address="0/2/14" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室柔和场景" Address="0/2/15" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卫生间明亮场景" Address="0/2/16" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊全开闭" Address="0/2/17" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室全调光" Address="0/2/18" />
+      <GroupAddress Name="西卧室全调色" Address="0/2/19" />
+      <GroupAddress Name="北卧室明亮场景" Address="0/2/20" Description="北卧室灯不含衣帽间卫生间" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室休闲场景" Address="0/2/21" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室全调光" Address="0/2/22" />
+      <GroupAddress Name="北卧室全调色" Address="0/2/23" />
+      <GroupAddress Name="北卧卫生间明亮场景" Address="0/2/24" Description="包含感应器屏蔽开关" DPTs="DPST-1-1" />
+      <GroupAddress Name="全开关" Address="0/2/25" Description="包含背景音乐、空调" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室明亮场景" Address="0/2/26" Description="东卧室灯光不含卫生间和空调" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅空调开闭" Address="0/2/27" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧全关" Address="0/2/28" Description="感应器/衣帽间/洗手间不含背景音乐" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室全关" Address="0/2/29" Description="东卧灯光/东卫灯光/感应器/全关，不含空调/背景音乐" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧明亮" Address="0/2/30" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧全关" Address="0/2/31" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房全开全关" Address="0/2/32" Description="含空调控制关" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅空调模式" Address="0/2/33" DPTs="DPST-20-105" />
+      <GroupAddress Name="客厅空调风速" Address="0/2/34" DPTs="DPST-5-100" />
+      <GroupAddress Name="客厅空调温度设定" Address="0/2/35" DPTs="DPST-9-1" />
+      <GroupAddress Name="场景数字编辑" Address="0/2/36" DPTs="DPST-18-1" />
+    </GroupRange>
+    <GroupRange Name="感应器锁定" RangeStart="768" RangeEnd="1023">
+      <GroupAddress Name="占位" Address="0/3/0" />
+      <GroupAddress Name="西走廊感应器锁定" Address="0/3/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卫生间感应器锁定" Address="0/3/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="入户走廊感应器锁定" Address="0/3/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐桌感应器锁定" Address="0/3/4" />
+      <GroupAddress Name="餐厅岛台感应器锁定" Address="0/3/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="厨房感应器锁定" Address="0/3/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅走廊感应器锁定" Address="0/3/7" DPTs="DPST-1-1" />
+      <GroupAddress Name="东走廊感应器锁定" Address="0/3/8" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室卫生间感应器锁定" Address="0/3/9" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室衣帽间感应器锁定" Address="0/3/10" />
+      <GroupAddress Name="东卧室卫生间感应器锁定" Address="0/3/11" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧室卫生间感应器锁定" Address="0/3/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧室入户感应器锁定" Address="0/3/13" />
+      <GroupAddress Name="客厅走廊感应场景" Address="0/3/14" />
+      <GroupAddress Name="入户感应场景" Address="0/3/15" />
+      <GroupAddress Name="西走廊感应场景" Address="0/3/16" />
+      <GroupAddress Name="西卫生间感应场景" Address="0/3/17" />
+      <GroupAddress Name="东走廊感应场景" Address="0/3/18" />
+      <GroupAddress Name="主卧入户感应场景" Address="0/3/19" />
+      <GroupAddress Name="主卫生间感应场景" Address="0/3/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="厨房感应器场景" Address="0/3/21" DPTs="DPST-1-1" />
+      <GroupAddress Name="岛台感应器场景" Address="0/3/22" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卫生间感应场景" Address="0/3/23" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室衣帽间感应场景" Address="0/3/24" />
+      <GroupAddress Name="东卧室感应场景" Address="0/3/25" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="新灯光场景" RangeStart="1024" RangeEnd="1279">
+      <GroupAddress Name="占位" Address="0/4/0" />
+      <GroupAddress Name="回家离家场景" Address="0/4/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="离家场景" Address="0/4/2" />
+      <GroupAddress Name="客厅东走廊敞开模式" Address="0/4/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="入户面板右上" Address="0/4/4" DPTs="DPST-5-10" />
+      <GroupAddress Name="入户面板右下" Address="0/4/5" DPTs="DPST-5-10" />
+      <GroupAddress Name="西卫生间面板客餐厅全关" Address="0/4/6" DPTs="DPST-5-10" />
+      <GroupAddress Name="西卧室全关" Address="0/4/7" DPTs="DPST-5-10" />
+      <GroupAddress Name="西卫生间射灯锁定按键" Address="0/4/8" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅阅读模式2" Address="0/4/9" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卫生间左3按键全亮" Address="0/4/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室入户面板1" Address="0/4/11" DPTs="DPST-5-10" />
+      <GroupAddress Name="西卧室睡前模式" Address="0/4/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室睡眠模式" Address="0/4/13" DPTs="DPST-5-10" />
+      <GroupAddress Name="餐厅中餐模式" Address="0/4/14" DPTs="DPST-5-10" />
+      <GroupAddress Name="中餐模式1" Address="0/4/16" DPTs="DPST-18-1" />
+      <GroupAddress Name="客厅氛围模式" Address="0/4/17" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅日常模式" Address="0/4/18" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅明亮模式" Address="0/4/19" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅阅读模式" Address="0/4/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="离开模式" Address="0/4/21" Description="空调背景音乐走廊感应器" DPTs="DPST-5-10" />
+      <GroupAddress Name="客厅全开闭" Address="0/4/22" Description="不包含空调和窗帘" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅厨房全开闭" Address="0/4/23" Description="不包含空调窗帘，含感应器屏蔽" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅气氛灯全亮" Address="0/4/24" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅明亮模式开闭长按关闭主灯磁吸" Address="0/4/25" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室夜灯模式" Address="0/4/28" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="最终入户场景" RangeStart="1280" RangeEnd="1535">
+      <GroupAddress Name="入户面板场景" Address="0/5/1" Description="离家场景1：灯光全关/空调全关/背景音乐全关/感应器全自动&#xD;&#xA;离家场景2：关闭全部窗帘" DPTs="DPST-5-10" />
+      <GroupAddress Name="入户面板" Address="0/5/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="入户面板开闭" Address="0/5/3" />
+      <GroupAddress Name="回家场景70%" Address="0/5/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="回家模式100%" Address="0/5/6" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="易探感应器" RangeStart="1536" RangeEnd="1791">
+      <GroupAddress Name="厨房感应器光照度" Address="0/6/1" DPTs="DPST-9-4" />
+      <GroupAddress Name="岛台感应器光照度" Address="0/6/2" DPTs="DPST-9-4" />
+      <GroupAddress Name="主卫感应器光照度" Address="0/6/3" DPTs="DPST-9-4" />
+      <GroupAddress Name="北卫感应器光照度" Address="0/6/4" DPTs="DPST-9-4" />
+      <GroupAddress Name="东卫生间感应器光照度" Address="0/6/5" DPTs="DPST-9-4" />
+    </GroupRange>
+    <GroupRange Name="最终卧室场景面板" RangeStart="1792" RangeEnd="2047">
+      <GroupAddress Name="新建群组地址" Address="0/7/0" />
+      <GroupAddress Name="主卧室面板" Address="0/7/1" Description="包含主卧入户感应器锁定" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧所有灯关闭" Address="0/7/2" Description="包含入户/卫生间感应锁定" DPTs="DPST-5-10" />
+      <GroupAddress Name="娱乐模式" Address="0/7/3" />
+      <GroupAddress Name="学习场景" Address="0/7/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="睡前模式" Address="0/7/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="睡眠模式" Address="0/7/6" Description="包含主卧所有灯/窗帘/关闭，感应器解锁" DPTs="DPST-5-10" />
+      <GroupAddress Name="北卧室日常模式" Address="0/7/7" DPTs="DPST-5-10" />
+      <GroupAddress Name="北卧室休闲模式" Address="0/7/8" DPTs="DPST-5-10" />
+      <GroupAddress Name="北卧室睡前模式" Address="0/7/9" DPTs="DPST-5-10" />
+      <GroupAddress Name="主卧灯带50%开闭" Address="0/7/10" Description="包含主卧入户感应器锁定" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室日常/学习/睡前/睡眠/全关模式" Address="0/7/11" DPTs="DPST-5-10" />
+      <GroupAddress Name="主卫射灯开闭+感应锁定" Address="0/7/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫全部灯开闭+感应锁定" Address="0/7/13" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫面板场景" Address="0/7/14" Description="洗脸场景/沐浴场景/泡澡场景" />
+      <GroupAddress Name="北卧全关模式" Address="0/7/15" DPTs="DPST-18-1" />
+      <GroupAddress Name="重置场景计数对象" Address="0/7/16" DPTs="DPST-1-10" />
+      <GroupAddress Name="重置场景计数对象" Address="0/7/17" DPTs="DPST-1-10" />
+      <GroupAddress Name="重置场景计数对象" Address="0/7/18" DPTs="DPST-1-10" />
+      <GroupAddress Name="东卧室新场景" Address="0/7/19" DPTs="DPST-18-1" />
+      <GroupAddress Name="北卧室面板新场景" Address="0/7/20" DPTs="DPST-18-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="窗帘" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="开关" RangeStart="2048" RangeEnd="2303">
+      <GroupAddress Name="占位" Address="1/0/0" />
+      <GroupAddress Name="餐厅布帘" Address="1/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅纱帘" Address="1/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室布帘" Address="1/0/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室纱帘" Address="1/0/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅布帘" Address="1/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅纱帘" Address="1/0/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧西布帘" Address="1/0/7" />
+      <GroupAddress Name="主卧西纱帘" Address="1/0/8" />
+      <GroupAddress Name="主卧中布帘" Address="1/0/9" DPTs="DPST-1-8" />
+      <GroupAddress Name="主卧中纱帘" Address="1/0/10" />
+      <GroupAddress Name="主卧东1布帘" Address="1/0/11" DPTs="DPST-1-8" />
+      <GroupAddress Name="主卧东1纱帘" Address="1/0/12" />
+      <GroupAddress Name="主卧东2布帘" Address="1/0/13" DPTs="DPST-1-8" />
+      <GroupAddress Name="主卧东2纱帘" Address="1/0/14" />
+      <GroupAddress Name="东卧室布帘" Address="1/0/15" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室纱帘" Address="1/0/16" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室布帘" Address="1/0/17" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室纱帘" Address="1/0/18" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="停止" RangeStart="2304" RangeEnd="2559">
+      <GroupAddress Name="占位" Address="1/1/0" />
+      <GroupAddress Name="餐厅布帘" Address="1/1/1" />
+      <GroupAddress Name="餐厅纱帘" Address="1/1/2" />
+      <GroupAddress Name="西卧室布帘" Address="1/1/3" DPTs="DPST-1-9" />
+      <GroupAddress Name="西卧室纱帘" Address="1/1/4" />
+      <GroupAddress Name="客厅布帘" Address="1/1/5" />
+      <GroupAddress Name="客厅纱帘" Address="1/1/6" />
+      <GroupAddress Name="主卧西布帘" Address="1/1/7" />
+      <GroupAddress Name="主卧西纱帘" Address="1/1/8" />
+      <GroupAddress Name="主卧中布帘" Address="1/1/9" DPTs="DPST-1-9" />
+      <GroupAddress Name="主卧中纱帘" Address="1/1/10" />
+      <GroupAddress Name="主卧东1布帘" Address="1/1/11" DPTs="DPST-1-9" />
+      <GroupAddress Name="主卧东1纱帘" Address="1/1/12" />
+      <GroupAddress Name="主卧东2布帘" Address="1/1/13" DPTs="DPST-1-9" />
+      <GroupAddress Name="主卧东2纱帘" Address="1/1/14" />
+      <GroupAddress Name="东卧室布帘" Address="1/1/15" DPTs="DPST-1-9" />
+      <GroupAddress Name="东卧室纱帘" Address="1/1/16" />
+      <GroupAddress Name="主卧室布帘" Address="1/1/17" DPTs="DPST-1-9" />
+      <GroupAddress Name="主卧室纱帘" Address="1/1/18" />
+    </GroupRange>
+    <GroupRange Name="位置" RangeStart="2560" RangeEnd="2815">
+      <GroupAddress Name="占位" Address="1/2/0" />
+      <GroupAddress Name="餐厅布帘" Address="1/2/1" />
+      <GroupAddress Name="餐厅纱帘" Address="1/2/2" />
+      <GroupAddress Name="西卧室布帘" Address="1/2/3" />
+      <GroupAddress Name="西卧室纱帘" Address="1/2/4" />
+      <GroupAddress Name="客厅布帘" Address="1/2/5" />
+      <GroupAddress Name="客厅纱帘" Address="1/2/6" />
+      <GroupAddress Name="主卧纱西布帘" Address="1/2/7" />
+      <GroupAddress Name="主卧西纱帘" Address="1/2/8" />
+      <GroupAddress Name="主卧中布帘" Address="1/2/9" />
+      <GroupAddress Name="主卧中纱帘" Address="1/2/10" />
+      <GroupAddress Name="主卧东1布帘" Address="1/2/11" />
+      <GroupAddress Name="主卧东1纱帘" Address="1/2/12" />
+      <GroupAddress Name="主卧东2布帘" Address="1/2/13" />
+      <GroupAddress Name="主卧东2纱帘" Address="1/2/14" />
+      <GroupAddress Name="东卧室布帘" Address="1/2/15" />
+      <GroupAddress Name="东卧室纱帘" Address="1/2/16" />
+      <GroupAddress Name="北卧室布帘" Address="1/2/17" />
+      <GroupAddress Name="北卧室纱帘" Address="1/2/18" />
+    </GroupRange>
+    <GroupRange Name="开关反馈" RangeStart="2816" RangeEnd="3071">
+      <GroupAddress Name="占位" Address="1/3/0" />
+      <GroupAddress Name="餐厅布帘" Address="1/3/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅纱帘" Address="1/3/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室布帘" Address="1/3/3" DPTs="DPST-5-1" />
+      <GroupAddress Name="西卧室纱帘" Address="1/3/4" DPTs="DPST-5-1" />
+      <GroupAddress Name="客厅布帘" Address="1/3/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅纱帘" Address="1/3/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧西布帘" Address="1/3/7" />
+      <GroupAddress Name="主卧西纱帘" Address="1/3/8" />
+      <GroupAddress Name="主卧中布帘" Address="1/3/9" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卧中纱帘" Address="1/3/10" />
+      <GroupAddress Name="主卧东1布帘" Address="1/3/11" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卧东1纱帘" Address="1/3/12" />
+      <GroupAddress Name="主卧东2布帘" Address="1/3/13" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卧东2纱帘" Address="1/3/14" />
+      <GroupAddress Name="东卧室布帘" Address="1/3/15" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室纱帘" Address="1/3/16" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室布帘" Address="1/3/17" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室纱帘" Address="1/3/18" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="位置反馈" RangeStart="3072" RangeEnd="3327">
+      <GroupAddress Name="占位" Address="1/4/0" />
+      <GroupAddress Name="餐厅布帘" Address="1/4/1" />
+      <GroupAddress Name="餐厅纱帘" Address="1/4/2" />
+      <GroupAddress Name="西卧室布帘" Address="1/4/3" />
+      <GroupAddress Name="西卧室纱帘" Address="1/4/4" DPTs="DPST-1-9" />
+      <GroupAddress Name="客厅布帘" Address="1/4/5" />
+      <GroupAddress Name="客厅纱帘" Address="1/4/6" />
+      <GroupAddress Name="主卧西布帘" Address="1/4/7" />
+      <GroupAddress Name="主卧西纱帘" Address="1/4/8" />
+      <GroupAddress Name="主卧中布帘" Address="1/4/9" />
+      <GroupAddress Name="主卧中纱帘" Address="1/4/10" />
+      <GroupAddress Name="主卧东1布帘" Address="1/4/11" />
+      <GroupAddress Name="主卧东1纱帘" Address="1/4/12" />
+      <GroupAddress Name="主卧东2布帘" Address="1/4/13" />
+      <GroupAddress Name="主卧东2纱帘" Address="1/4/14" />
+      <GroupAddress Name="东卧室布帘" Address="1/4/15" />
+      <GroupAddress Name="东卧室纱帘" Address="1/4/16" />
+      <GroupAddress Name="北卧室布帘" Address="1/4/17" />
+      <GroupAddress Name="北卧室纱帘" Address="1/4/18" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="客厅西卧室" RangeStart="12288" RangeEnd="14335">
+    <GroupRange Name="灯开闭" RangeStart="12288" RangeEnd="12543">
+      <GroupAddress Name="客厅壁灯" Address="6/0/3" />
+      <GroupAddress Name="客厅柜内灯" Address="6/0/5" />
+      <GroupAddress Name="客厅柜灯带" Address="6/0/9" />
+      <GroupAddress Name="客厅主灯南1" Address="6/0/15" />
+      <GroupAddress Name="客厅顶灯带" Address="6/0/41" />
+      <GroupAddress Name="客厅墙灯带" Address="6/0/42" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅窗帘灯带" Address="6/0/43" />
+      <GroupAddress Name="客厅柜子灯带" Address="6/0/44" />
+      <GroupAddress Name="西卧窗帘灯带" Address="6/0/45" />
+      <GroupAddress Name="西卧顶灯带" Address="6/0/47" />
+      <GroupAddress Name="卫生间柜底灯带" Address="6/0/48" />
+      <GroupAddress Name="卫生间灯带" Address="6/0/49" DPTs="DPST-1-1" />
+      <GroupAddress Name="卫生间镜灯带" Address="6/0/50" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊柜灯带" Address="6/0/51" DPTs="DPST-1-1" />
+      <GroupAddress Name="入户玄关射灯" Address="6/0/53" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卫生间洗手盆灯带" Address="6/0/57" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊踢脚线灯带" Address="6/0/59" />
+      <GroupAddress Name="客厅壁灯状态" Address="6/0/103" />
+      <GroupAddress Name="客厅柜灯带" Address="6/0/105" />
+      <GroupAddress Name="客厅柜灯带状态" Address="6/0/109" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅主灯南1状态" Address="6/0/115" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅顶灯带状态" Address="6/0/141" />
+      <GroupAddress Name="客厅墙灯带状态" Address="6/0/142" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅窗帘灯带状态" Address="6/0/143" />
+      <GroupAddress Name="客厅柜子灯带状态" Address="6/0/144" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧窗帘灯带" Address="6/0/145" />
+      <GroupAddress Name="西卧室顶灯带状态" Address="6/0/147" />
+      <GroupAddress Name="卫生间柜底灯带状态" Address="6/0/148" />
+      <GroupAddress Name="卫生间灯带状态" Address="6/0/149" DPTs="DPST-1-1" />
+      <GroupAddress Name="卫生间镜灯带状态" Address="6/0/150" />
+      <GroupAddress Name="西走廊柜灯带状态" Address="6/0/151" />
+      <GroupAddress Name="入户玄关射灯状态" Address="6/0/153" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卫生间洗手盆灯带状态" Address="6/0/157" />
+      <GroupAddress Name="西走廊踢脚线灯带状态" Address="6/0/159" />
+      <GroupAddress Name="客厅设备柜射灯" Address="6/0/200" />
+      <GroupAddress Name="客厅射灯" Address="6/0/201" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊射灯" Address="6/0/202" DPTs="DPST-1-1" />
+      <GroupAddress Name="走廊进门射灯" Address="6/0/203" />
+      <GroupAddress Name="卫生间射灯" Address="6/0/204" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧主射灯" Address="6/0/205" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧风口射灯" Address="6/0/206" />
+      <GroupAddress Name="客厅阳台射灯" Address="6/0/207" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅磁吸灯" Address="6/0/208" />
+      <GroupAddress Name="入户射灯" Address="6/0/209" DPTs="DPST-1-1" />
+      <GroupAddress Name="走廊中间射灯" Address="6/0/210" />
+      <GroupAddress Name="客厅设备柜灯状态" Address="6/0/220" />
+      <GroupAddress Name="客厅射灯状态" Address="6/0/221" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊射灯状态" Address="6/0/222" />
+      <GroupAddress Name="走廊进门射灯状态" Address="6/0/223" />
+      <GroupAddress Name="卫生间射灯状态" Address="6/0/224" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧主射灯状态" Address="6/0/225" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室风口射灯状态" Address="6/0/226" />
+      <GroupAddress Name="客厅阳台射灯状态" Address="6/0/227" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅磁吸灯状态" Address="6/0/228" DPTs="DPST-1-1" />
+      <GroupAddress Name="入户射灯状态" Address="6/0/229" DPTs="DPST-1-1" />
+      <GroupAddress Name="走廊中间灯状态" Address="6/0/230" />
+    </GroupRange>
+    <GroupRange Name="调光" RangeStart="12544" RangeEnd="12799">
+      <GroupAddress Name="客厅柜灯带调光" Address="6/1/9" />
+      <GroupAddress Name="客厅主灯南灯1调光" Address="6/1/15" />
+      <GroupAddress Name="客厅主灯南1调色" Address="6/1/16" />
+      <GroupAddress Name="客厅顶灯带" Address="6/1/41" />
+      <GroupAddress Name="客厅墙灯带" Address="6/1/42" />
+      <GroupAddress Name="客厅窗帘灯带" Address="6/1/43" />
+      <GroupAddress Name="客厅柜子灯带" Address="6/1/44" />
+      <GroupAddress Name="西卧窗帘灯带" Address="6/1/45" />
+      <GroupAddress Name="西卧顶灯带" Address="6/1/47" />
+      <GroupAddress Name="卫生间柜底灯带" Address="6/1/48" />
+      <GroupAddress Name="卫生间灯带" Address="6/1/49" DPTs="DPST-3-7" />
+      <GroupAddress Name="卫生间镜灯带" Address="6/1/50" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊柜灯带" Address="6/1/51" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卫生间洗手盆灯带" Address="6/1/57" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊踢脚线灯带" Address="6/1/59" />
+      <GroupAddress Name="客厅柜灯调光状态" Address="6/1/109" />
+      <GroupAddress Name="客厅主灯南1亮度状态" Address="6/1/115" />
+      <GroupAddress Name="客厅顶灯带状态" Address="6/1/141" />
+      <GroupAddress Name="客厅墙灯带状态" Address="6/1/142" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅窗帘灯带状态" Address="6/1/143" />
+      <GroupAddress Name="客厅柜子灯带状态" Address="6/1/144" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧窗帘灯带亮度状态" Address="6/1/145" />
+      <GroupAddress Name="西卧室顶灯带状态" Address="6/1/147" />
+      <GroupAddress Name="卫生间柜底灯带状态" Address="6/1/148" />
+      <GroupAddress Name="卫生间灯带状态" Address="6/1/149" DPTs="DPST-5-1" />
+      <GroupAddress Name="卫生间镜灯带状态" Address="6/1/150" />
+      <GroupAddress Name="西走廊柜灯带状态" Address="6/1/151" />
+      <GroupAddress Name="入户玄关射灯状态" Address="6/1/153" />
+      <GroupAddress Name="入户玄关亮度状态" Address="6/1/154" />
+      <GroupAddress Name="西卫生间洗手盆灯带状态" Address="6/1/157" />
+      <GroupAddress Name="西走廊踢脚线灯带状态" Address="6/1/159" />
+      <GroupAddress Name="客厅设备柜射灯" Address="6/1/200" />
+      <GroupAddress Name="客厅射灯" Address="6/1/201" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊射灯" Address="6/1/202" DPTs="DPST-1-1" />
+      <GroupAddress Name="走廊进门射灯" Address="6/1/203" />
+      <GroupAddress Name="卫生间射灯" Address="6/1/204" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧主射灯" Address="6/1/205" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧风口射灯" Address="6/1/206" />
+      <GroupAddress Name="走廊风口射灯" Address="6/1/207" />
+      <GroupAddress Name="客厅磁吸灯" Address="6/1/208" />
+      <GroupAddress Name="入户射灯调光" Address="6/1/209" />
+      <GroupAddress Name="走廊中间射灯" Address="6/1/210" />
+      <GroupAddress Name="客厅设备柜灯状态" Address="6/1/220" />
+      <GroupAddress Name="客厅射灯状态" Address="6/1/221" />
+      <GroupAddress Name="西走廊射灯状态" Address="6/1/222" />
+      <GroupAddress Name="走廊进门射灯状态" Address="6/1/223" DPTs="DPST-1-1" />
+      <GroupAddress Name="卫生间射灯状态" Address="6/1/224" />
+      <GroupAddress Name="西卧主射灯状态" Address="6/1/225" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧风口射灯状态" Address="6/1/226" />
+      <GroupAddress Name="走廊风口射灯状态" Address="6/1/227" />
+      <GroupAddress Name="走廊风口灯状态" Address="6/1/228" />
+      <GroupAddress Name="入户射灯灯状态" Address="6/1/229" DPTs="DPST-1-1" />
+      <GroupAddress Name="走廊中间灯状态" Address="6/1/230" />
+      <GroupAddress Name="入户射灯调光状态" Address="6/1/232" />
+    </GroupRange>
+    <GroupRange Name="调色温" RangeStart="12800" RangeEnd="13055">
+      <GroupAddress Name="客厅柜灯带调色" Address="6/2/9" />
+      <GroupAddress Name="新建群组地址" Address="6/2/15" />
+      <GroupAddress Name="客厅顶灯带" Address="6/2/41" />
+      <GroupAddress Name="客厅墙灯带" Address="6/2/42" />
+      <GroupAddress Name="客厅窗帘灯带" Address="6/2/43" />
+      <GroupAddress Name="客厅柜子灯带" Address="6/2/44" />
+      <GroupAddress Name="西卧窗帘灯带" Address="6/2/45" />
+      <GroupAddress Name="西卧顶灯带" Address="6/2/47" />
+      <GroupAddress Name="卫生间柜底灯带" Address="6/2/48" />
+      <GroupAddress Name="卫生间灯带" Address="6/2/49" DPTs="DPST-1-1" />
+      <GroupAddress Name="卫生间镜灯带" Address="6/2/50" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊柜灯带" Address="6/2/51" DPTs="DPST-1-1" />
+      <GroupAddress Name="入户玄关射灯色温" Address="6/2/53" />
+      <GroupAddress Name="西卫生间洗手盆灯带" Address="6/2/57" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊踢脚线灯带" Address="6/2/59" />
+      <GroupAddress Name="客厅柜灯带调色状态" Address="6/2/109" />
+      <GroupAddress Name="新建群组地址" Address="6/2/115" />
+      <GroupAddress Name="客厅顶灯带状态" Address="6/2/141" />
+      <GroupAddress Name="客厅墙灯带状态" Address="6/2/142" />
+      <GroupAddress Name="客厅窗帘灯带状态" Address="6/2/143" />
+      <GroupAddress Name="客厅柜子灯带状态" Address="6/2/144" />
+      <GroupAddress Name="西卧窗帘灯带色温状态" Address="6/2/145" />
+      <GroupAddress Name="西卧室顶灯带状态" Address="6/2/147" />
+      <GroupAddress Name="卫生间柜底灯带状态" Address="6/2/148" />
+      <GroupAddress Name="卫生间灯带状态" Address="6/2/149" DPTs="DPST-1-1" />
+      <GroupAddress Name="卫生间镜灯带状态" Address="6/2/150" />
+      <GroupAddress Name="西走廊柜灯带状态" Address="6/2/151" />
+      <GroupAddress Name="入户玄关色温状态" Address="6/2/153" />
+      <GroupAddress Name="西卫生间洗手盆灯带状态" Address="6/2/157" />
+      <GroupAddress Name="西走廊踢脚线灯带状态" Address="6/2/159" />
+      <GroupAddress Name="客厅阳台射灯" Address="6/2/200" />
+      <GroupAddress Name="客厅射灯" Address="6/2/201" DPTs="DPST-1-1" />
+      <GroupAddress Name="西走廊射灯" Address="6/2/202" DPTs="DPST-1-1" />
+      <GroupAddress Name="走廊进门射灯" Address="6/2/203" />
+      <GroupAddress Name="卫生间射灯" Address="6/2/204" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧主射灯" Address="6/2/205" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧风口射灯" Address="6/2/206" />
+      <GroupAddress Name="走廊风口射灯" Address="6/2/207" />
+      <GroupAddress Name="客厅磁吸灯" Address="6/2/208" />
+      <GroupAddress Name="入户射灯色温" Address="6/2/209" />
+      <GroupAddress Name="走廊中间射灯" Address="6/2/210" />
+      <GroupAddress Name="客厅阳台灯状态" Address="6/2/220" />
+      <GroupAddress Name="客厅射灯状态" Address="6/2/221" />
+      <GroupAddress Name="西走廊射灯状态" Address="6/2/222" />
+      <GroupAddress Name="走廊进门射灯状态" Address="6/2/223" />
+      <GroupAddress Name="卫生间射灯状态" Address="6/2/224" />
+      <GroupAddress Name="西卧主射灯状态" Address="6/2/225" DPTs="DPST-1-1" />
+      <GroupAddress Name="西卧室风口射灯状态" Address="6/2/226" />
+      <GroupAddress Name="走廊风口射灯状态" Address="6/2/227" />
+      <GroupAddress Name="客厅磁吸灯状态" Address="6/2/228" />
+      <GroupAddress Name="入户射灯状态" Address="6/2/229" />
+      <GroupAddress Name="走廊中间射灯状态" Address="6/2/230" />
+      <GroupAddress Name="走廊中间灯状态" Address="6/2/231" />
+      <GroupAddress Name="入户射灯色温状态" Address="6/2/232" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="餐厅北卧" RangeStart="16384" RangeEnd="18431">
+    <GroupRange Name="开闭" RangeStart="16384" RangeEnd="16639">
+      <GroupAddress Name="餐厅北卧调光状态" Address="8/0/0" />
+      <GroupAddress Name="北卧主灯" Address="8/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧壁灯" Address="8/0/2" />
+      <GroupAddress Name="岛台圆灯开闭" Address="8/0/3" />
+      <GroupAddress Name="北卧阳台射灯" Address="8/0/4" />
+      <GroupAddress Name="餐厅主灯" Address="8/0/8" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卫镜灯带" Address="8/0/26" />
+      <GroupAddress Name="北卫柜底灯带" Address="8/0/27" />
+      <GroupAddress Name="北卫顶灯带" Address="8/0/28" />
+      <GroupAddress Name="北卫壁龛灯带" Address="8/0/29" />
+      <GroupAddress Name="北卧窗帘灯带" Address="8/0/30" />
+      <GroupAddress Name="岛台灯带" Address="8/0/38" />
+      <GroupAddress Name="餐厅柜灯带" Address="8/0/40" />
+      <GroupAddress Name="北卧顶灯带" Address="8/0/41" />
+      <GroupAddress Name="餐厅踢脚线灯带" Address="8/0/42" />
+      <GroupAddress Name="餐厅窗帘灯带" Address="8/0/43" />
+      <GroupAddress Name="餐厅墙灯带" Address="8/0/50" DPTs="DPST-1-1" />
+      <GroupAddress Name="厨房洗手盆射灯" Address="8/0/51" />
+      <GroupAddress Name="北卧主灯状态" Address="8/0/101" />
+      <GroupAddress Name="北卧壁灯状态" Address="8/0/102" />
+      <GroupAddress Name="岛台圆灯状态" Address="8/0/103" />
+      <GroupAddress Name="北卧阳台灯状态" Address="8/0/104" />
+      <GroupAddress Name="餐厅主灯状态" Address="8/0/108" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卫镜灯带状态" Address="8/0/126" />
+      <GroupAddress Name="北卫柜底灯带状态" Address="8/0/127" />
+      <GroupAddress Name="北卫顶灯带状态" Address="8/0/128" />
+      <GroupAddress Name="北卫壁龛灯带状态" Address="8/0/129" />
+      <GroupAddress Name="北卧窗帘灯带状态" Address="8/0/130" />
+      <GroupAddress Name="北卧窗帘灯带状态" Address="8/0/131" />
+      <GroupAddress Name="岛台灯带状态" Address="8/0/138" />
+      <GroupAddress Name="占位" Address="8/0/139" />
+      <GroupAddress Name="餐厅柜子灯带状态" Address="8/0/140" />
+      <GroupAddress Name="北卧顶灯带状态" Address="8/0/141" />
+      <GroupAddress Name="餐厅踢脚线灯带状态" Address="8/0/142" />
+      <GroupAddress Name="餐厅窗帘灯带状态" Address="8/0/143" />
+      <GroupAddress Name="餐厅墙灯带状态" Address="8/0/150" DPTs="DPST-1-1" />
+      <GroupAddress Name="厨房洗手盆灯状态" Address="8/0/151" />
+      <GroupAddress Name="北卧衣帽间" Address="8/0/200" />
+      <GroupAddress Name="厨房射灯？？？？？" Address="8/0/201" />
+      <GroupAddress Name="餐厅风口射灯" Address="8/0/202" />
+      <GroupAddress Name="北卫射灯" Address="8/0/203" />
+      <GroupAddress Name="岛台格栅灯" Address="8/0/204" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅风口射灯" Address="8/0/205" />
+      <GroupAddress Name="厨房主灯" Address="8/0/206" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅东墙射灯" Address="8/0/207" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅磁吸灯" Address="8/0/209" />
+      <GroupAddress Name="北卧衣帽间灯状态" Address="8/0/220" />
+      <GroupAddress Name="厨房射灯状态" Address="8/0/221" />
+      <GroupAddress Name="餐厅风口射灯状态" Address="8/0/222" />
+      <GroupAddress Name="北卫射灯状态" Address="8/0/223" />
+      <GroupAddress Name="岛台格栅灯状态" Address="8/0/224" />
+      <GroupAddress Name="餐厅风口射灯状态" Address="8/0/225" />
+      <GroupAddress Name="厨房主灯状态" Address="8/0/226" />
+      <GroupAddress Name="餐厅射灯状态" Address="8/0/227" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅磁吸灯状态" Address="8/0/229" />
+    </GroupRange>
+    <GroupRange Name="调光" RangeStart="16640" RangeEnd="16895">
+      <GroupAddress Name="餐厅北卧调光状态" Address="8/1/0" />
+      <GroupAddress Name="北卧主灯" Address="8/1/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="岛台圆灯开闭" Address="8/1/3" />
+      <GroupAddress Name="北卧阳台射灯" Address="8/1/4" />
+      <GroupAddress Name="北卫镜灯带" Address="8/1/26" />
+      <GroupAddress Name="北卫柜底灯带" Address="8/1/27" />
+      <GroupAddress Name="北卫顶灯带" Address="8/1/28" />
+      <GroupAddress Name="北卫壁龛灯带" Address="8/1/29" />
+      <GroupAddress Name="北卧窗帘灯带" Address="8/1/30" />
+      <GroupAddress Name="岛台灯带" Address="8/1/38" />
+      <GroupAddress Name="餐厅柜灯带" Address="8/1/40" />
+      <GroupAddress Name="北卧顶灯带" Address="8/1/41" />
+      <GroupAddress Name="餐厅踢脚线灯带" Address="8/1/42" />
+      <GroupAddress Name="餐厅窗帘灯带" Address="8/1/43" />
+      <GroupAddress Name="餐厅墙灯带" Address="8/1/50" />
+      <GroupAddress Name="厨房洗手盆射灯" Address="8/1/51" />
+      <GroupAddress Name="北卧主灯状态" Address="8/1/101" />
+      <GroupAddress Name="岛台圆灯状态" Address="8/1/103" />
+      <GroupAddress Name="北卧阳台灯状态" Address="8/1/104" />
+      <GroupAddress Name="北卫镜灯带状态" Address="8/1/126" />
+      <GroupAddress Name="北卫柜底灯带状态" Address="8/1/127" />
+      <GroupAddress Name="北卫顶灯带状态" Address="8/1/128" />
+      <GroupAddress Name="北卫壁龛灯带状态" Address="8/1/129" />
+      <GroupAddress Name="北卧窗帘灯带状态" Address="8/1/130" />
+      <GroupAddress Name="北卧窗帘灯带状态" Address="8/1/131" />
+      <GroupAddress Name="岛台灯带状态" Address="8/1/138" />
+      <GroupAddress Name="占位" Address="8/1/139" />
+      <GroupAddress Name="餐厅柜子灯带状态" Address="8/1/140" />
+      <GroupAddress Name="北卧顶灯带状态" Address="8/1/141" />
+      <GroupAddress Name="餐厅踢脚线灯带状态" Address="8/1/142" />
+      <GroupAddress Name="餐厅窗帘灯带状态" Address="8/1/143" />
+      <GroupAddress Name="餐厅墙灯带状态" Address="8/1/150" />
+      <GroupAddress Name="厨房洗手盆灯状态" Address="8/1/151" />
+      <GroupAddress Name="北卧衣帽间" Address="8/1/200" />
+      <GroupAddress Name="厨房射灯？？？？？" Address="8/1/201" />
+      <GroupAddress Name="餐厅风口射灯" Address="8/1/202" />
+      <GroupAddress Name="北卫射灯" Address="8/1/203" />
+      <GroupAddress Name="岛台格栅灯" Address="8/1/204" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅风口射灯" Address="8/1/205" />
+      <GroupAddress Name="厨房主灯" Address="8/1/206" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅东墙射灯" Address="8/1/207" DPTs="DPST-3-7" />
+      <GroupAddress Name="餐厅磁吸灯调光" Address="8/1/209" />
+      <GroupAddress Name="北卧衣帽间灯状态" Address="8/1/220" />
+      <GroupAddress Name="厨房射灯状态" Address="8/1/221" />
+      <GroupAddress Name="餐厅风口射灯状态" Address="8/1/222" />
+      <GroupAddress Name="北卫射灯状态" Address="8/1/223" />
+      <GroupAddress Name="岛台格栅灯状态" Address="8/1/224" />
+      <GroupAddress Name="餐厅风口射灯状态" Address="8/1/225" />
+      <GroupAddress Name="厨房主灯状态" Address="8/1/226" />
+      <GroupAddress Name="餐厅射灯状态" Address="8/1/227" DPTs="DPST-5-1" />
+      <GroupAddress Name="餐厅磁吸灯调光状态" Address="8/1/229" />
+    </GroupRange>
+    <GroupRange Name="调色" RangeStart="16896" RangeEnd="17151">
+      <GroupAddress Name="餐厅北卧调光状态" Address="8/2/0" />
+      <GroupAddress Name="北卧主灯" Address="8/2/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="岛台圆灯开闭" Address="8/2/3" />
+      <GroupAddress Name="北卧阳台射灯" Address="8/2/4" />
+      <GroupAddress Name="北卫镜灯带" Address="8/2/26" />
+      <GroupAddress Name="北卫柜底灯带" Address="8/2/27" />
+      <GroupAddress Name="北卫顶灯带" Address="8/2/28" />
+      <GroupAddress Name="北卫壁龛灯带" Address="8/2/29" />
+      <GroupAddress Name="北卧窗帘灯带" Address="8/2/30" />
+      <GroupAddress Name="岛台灯带" Address="8/2/38" />
+      <GroupAddress Name="餐厅柜灯带" Address="8/2/40" />
+      <GroupAddress Name="北卧顶灯带" Address="8/2/41" />
+      <GroupAddress Name="餐厅踢脚线灯带" Address="8/2/42" />
+      <GroupAddress Name="餐厅窗帘灯带" Address="8/2/43" />
+      <GroupAddress Name="餐厅墙灯带" Address="8/2/50" />
+      <GroupAddress Name="厨房洗手盆射灯" Address="8/2/51" />
+      <GroupAddress Name="北卧主灯状态" Address="8/2/101" />
+      <GroupAddress Name="岛台圆灯状态" Address="8/2/103" />
+      <GroupAddress Name="北卧阳台灯状态" Address="8/2/104" />
+      <GroupAddress Name="北卫镜灯带状态" Address="8/2/126" />
+      <GroupAddress Name="北卫柜底灯带状态" Address="8/2/127" />
+      <GroupAddress Name="北卫顶灯带状态" Address="8/2/128" />
+      <GroupAddress Name="北卫壁龛灯带状态" Address="8/2/129" />
+      <GroupAddress Name="北卧窗帘灯带状态" Address="8/2/130" />
+      <GroupAddress Name="北卧窗帘灯带状态" Address="8/2/131" />
+      <GroupAddress Name="岛台灯带状态" Address="8/2/138" />
+      <GroupAddress Name="占位" Address="8/2/139" />
+      <GroupAddress Name="餐厅柜子灯带状态" Address="8/2/140" />
+      <GroupAddress Name="北卧顶灯带状态" Address="8/2/141" />
+      <GroupAddress Name="餐厅踢脚线灯带状态" Address="8/2/142" />
+      <GroupAddress Name="餐厅窗帘灯带状态" Address="8/2/143" />
+      <GroupAddress Name="餐厅墙灯带状态" Address="8/2/150" />
+      <GroupAddress Name="厨房洗手盆灯状态" Address="8/2/151" />
+      <GroupAddress Name="北卧衣帽间" Address="8/2/200" />
+      <GroupAddress Name="厨房射灯？？？？？" Address="8/2/201" />
+      <GroupAddress Name="餐厅风口射灯" Address="8/2/202" />
+      <GroupAddress Name="北卫射灯" Address="8/2/203" />
+      <GroupAddress Name="岛台格栅灯" Address="8/2/204" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅风口射灯" Address="8/2/205" />
+      <GroupAddress Name="厨房主灯" Address="8/2/206" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅东墙射灯" Address="8/2/207" DPTs="DPST-3-7" />
+      <GroupAddress Name="餐厅磁吸灯色温" Address="8/2/209" />
+      <GroupAddress Name="北卧衣帽间灯状态" Address="8/2/220" />
+      <GroupAddress Name="厨房射灯状态" Address="8/2/221" />
+      <GroupAddress Name="餐厅风口射灯状态" Address="8/2/222" />
+      <GroupAddress Name="北卫射灯状态" Address="8/2/223" />
+      <GroupAddress Name="岛台格栅灯状态" Address="8/2/224" />
+      <GroupAddress Name="餐厅风口射灯状态" Address="8/2/225" />
+      <GroupAddress Name="厨房主灯状态" Address="8/2/226" />
+      <GroupAddress Name="餐厅射灯状态" Address="8/2/227" DPTs="DPST-1-1" />
+      <GroupAddress Name="餐厅磁吸灯色温状态" Address="8/2/229" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="主卧东卧书房" RangeStart="18432" RangeEnd="20479">
+    <GroupRange Name="开闭" RangeStart="18432" RangeEnd="18687">
+      <GroupAddress Name="新建群组地址" Address="9/0/0" />
+      <GroupAddress Name="书房柜灯带" Address="9/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="大腕灯" Address="9/0/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室壁灯" Address="9/0/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧床头壁灯" Address="9/0/9" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房磁吸灯" Address="9/0/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧墙灯带" Address="9/0/46" />
+      <GroupAddress Name="主卧窗帘灯带" Address="9/0/47" />
+      <GroupAddress Name="主卫浴龛灯带" Address="9/0/48" />
+      <GroupAddress Name="东卧窗帘射灯" Address="9/0/49" />
+      <GroupAddress Name="主卫镜灯带" Address="9/0/50" />
+      <GroupAddress Name="主卫柜底灯带" Address="9/0/51" DPTs="DPST-1-1" />
+      <GroupAddress Name="衣帽间灯带" Address="9/0/52" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫墙灯带" Address="9/0/53" />
+      <GroupAddress Name="东卫顶灯带射灯" Address="9/0/56" DPTs="DPST-1-1" />
+      <GroupAddress Name="东走廊灯带" Address="9/0/58" />
+      <GroupAddress Name="东卧室柜子灯带" Address="9/0/61" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧窗帘灯带" Address="9/0/62" />
+      <GroupAddress Name="书房柜灯带状态" Address="9/0/102" DPTs="DPST-1-1" />
+      <GroupAddress Name="占位" Address="9/0/103" />
+      <GroupAddress Name="大腕灯状态" Address="9/0/104" />
+      <GroupAddress Name="占位" Address="9/0/105" />
+      <GroupAddress Name="东卧室壁灯状态" Address="9/0/106" />
+      <GroupAddress Name="主卧床头壁灯状态" Address="9/0/109" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房磁吸灯状态" Address="9/0/110" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧墙灯带状态" Address="9/0/146" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧窗帘灯带状态" Address="9/0/147" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫浴灯带" Address="9/0/148" />
+      <GroupAddress Name="东卧窗帘灯带状态" Address="9/0/149" />
+      <GroupAddress Name="主卫镜灯带状态" Address="9/0/150" />
+      <GroupAddress Name="主卫柜底灯带状态" Address="9/0/151" />
+      <GroupAddress Name="衣帽间灯带状态" Address="9/0/152" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫墙灯带状态" Address="9/0/153" />
+      <GroupAddress Name="占位" Address="9/0/154" />
+      <GroupAddress Name="占位" Address="9/0/155" />
+      <GroupAddress Name="东卫顶灯带射灯状态" Address="9/0/156" />
+      <GroupAddress Name="东走廊灯带状态" Address="9/0/158" />
+      <GroupAddress Name="东卧室柜子灯带状态" Address="9/0/161" />
+      <GroupAddress Name="主卧窗帘灯带状态" Address="9/0/162" />
+      <GroupAddress Name="主卧格栅灯" Address="9/0/201" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房射灯" Address="9/0/202" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧入户射灯" Address="9/0/203" />
+      <GroupAddress Name="衣帽间射灯" Address="9/0/204" />
+      <GroupAddress Name="主卫射灯" Address="9/0/205" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅设备柜射灯" Address="9/0/206" />
+      <GroupAddress Name="东卧射灯" Address="9/0/207" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卫射灯" Address="9/0/208" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧射灯" Address="9/0/209" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧筒灯" Address="9/0/210" DPTs="DPST-1-1" />
+      <GroupAddress Name="东走廊射灯" Address="9/0/211" />
+      <GroupAddress Name="书房柜灯总" Address="9/0/212" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫湿区射灯" Address="9/0/213" />
+      <GroupAddress Name="主卧格栅灯状态" Address="9/0/221" />
+      <GroupAddress Name="书房射灯状态" Address="9/0/222" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧入户射灯状态" Address="9/0/223" DPTs="DPST-1-1" />
+      <GroupAddress Name="衣帽间射灯状态" Address="9/0/224" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫射灯状态" Address="9/0/225" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅设备柜灯状态" Address="9/0/226" />
+      <GroupAddress Name="东卧射灯状态" Address="9/0/227" />
+      <GroupAddress Name="东卫射灯状态" Address="9/0/228" />
+      <GroupAddress Name="主卧射灯状态" Address="9/0/229" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧筒灯状态" Address="9/0/230" DPTs="DPST-1-1" />
+      <GroupAddress Name="东走廊射灯状态" Address="9/0/231" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房柜灯总状态" Address="9/0/232" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卫湿区射灯状态" Address="9/0/233" />
+    </GroupRange>
+    <GroupRange Name="调光" RangeStart="18688" RangeEnd="18943">
+      <GroupAddress Name="新建群组地址" Address="9/1/0" />
+      <GroupAddress Name="书房柜灯带" Address="9/1/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="大腕灯" Address="9/1/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室壁灯" Address="9/1/6" />
+      <GroupAddress Name="主卧床头壁灯" Address="9/1/9" />
+      <GroupAddress Name="书房磁吸灯" Address="9/1/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧墙灯带" Address="9/1/46" />
+      <GroupAddress Name="主卧窗帘灯带" Address="9/1/47" />
+      <GroupAddress Name="主卫浴龛灯带" Address="9/1/48" />
+      <GroupAddress Name="东卧窗帘射灯" Address="9/1/49" />
+      <GroupAddress Name="主卫镜灯带" Address="9/1/50" />
+      <GroupAddress Name="主卫柜底灯带" Address="9/1/51" />
+      <GroupAddress Name="衣帽间灯带" Address="9/1/52" DPTs="DPST-3-7" />
+      <GroupAddress Name="主卫墙灯带" Address="9/1/53" />
+      <GroupAddress Name="东卫顶灯带射灯" Address="9/1/56" DPTs="DPST-5-1" />
+      <GroupAddress Name="东走廊灯带" Address="9/1/58" />
+      <GroupAddress Name="东卧室柜子灯带" Address="9/1/61" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧窗帘灯带" Address="9/1/62" />
+      <GroupAddress Name="书房柜灯带状态" Address="9/1/102" />
+      <GroupAddress Name="占位" Address="9/1/103" />
+      <GroupAddress Name="大腕灯状态" Address="9/1/104" />
+      <GroupAddress Name="占位" Address="9/1/105" />
+      <GroupAddress Name="东卧室壁灯状态" Address="9/1/106" />
+      <GroupAddress Name="主卧床头壁灯状态" Address="9/1/109" />
+      <GroupAddress Name="书房磁吸灯状态" Address="9/1/110" />
+      <GroupAddress Name="主卧墙灯带状态" Address="9/1/146" />
+      <GroupAddress Name="主卧窗帘灯带状态" Address="9/1/147" />
+      <GroupAddress Name="主卫浴灯带" Address="9/1/148" />
+      <GroupAddress Name="东卧窗帘灯带状态" Address="9/1/149" />
+      <GroupAddress Name="主卫镜灯带状态" Address="9/1/150" />
+      <GroupAddress Name="主卫柜底灯带状态" Address="9/1/151" />
+      <GroupAddress Name="衣帽间灯带状态" Address="9/1/152" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卫墙灯带状态" Address="9/1/153" />
+      <GroupAddress Name="占位" Address="9/1/154" />
+      <GroupAddress Name="占位" Address="9/1/155" />
+      <GroupAddress Name="东卫顶灯带射灯状态" Address="9/1/156" />
+      <GroupAddress Name="东走廊灯带状态" Address="9/1/158" />
+      <GroupAddress Name="东卧室柜子灯带状态" Address="9/1/161" />
+      <GroupAddress Name="主卧窗帘灯带状态" Address="9/1/162" />
+      <GroupAddress Name="主卧格栅灯" Address="9/1/201" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房射灯" Address="9/1/202" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧入户射灯" Address="9/1/203" />
+      <GroupAddress Name="衣帽间射灯" Address="9/1/204" />
+      <GroupAddress Name="主卫射灯" Address="9/1/205" />
+      <GroupAddress Name="客厅设备柜射灯" Address="9/1/206" />
+      <GroupAddress Name="东卧射灯" Address="9/1/207" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卫射灯" Address="9/1/208" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卧射灯" Address="9/1/209" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卧筒灯" Address="9/1/210" DPTs="DPST-3-7" />
+      <GroupAddress Name="东走廊射灯" Address="9/1/211" />
+      <GroupAddress Name="主卫湿区射灯调光" Address="9/1/213" />
+      <GroupAddress Name="主卧格栅灯状态" Address="9/1/221" />
+      <GroupAddress Name="书房射灯状态" Address="9/1/222" />
+      <GroupAddress Name="主卧射灯状态" Address="9/1/223" />
+      <GroupAddress Name="衣帽间射灯状态" Address="9/1/224" />
+      <GroupAddress Name="主卫射灯状态" Address="9/1/225" />
+      <GroupAddress Name="客厅设备柜灯状态" Address="9/1/226" />
+      <GroupAddress Name="东卧射灯状态" Address="9/1/227" />
+      <GroupAddress Name="东卫射灯状态" Address="9/1/228" />
+      <GroupAddress Name="主卧射灯状态" Address="9/1/229" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卧筒灯状态" Address="9/1/230" DPTs="DPST-5-1" />
+      <GroupAddress Name="东走廊射灯状态" Address="9/1/231" DPTs="DPST-5-1" />
+      <GroupAddress Name="主卫湿区射灯调光状态" Address="9/1/233" />
+    </GroupRange>
+    <GroupRange Name="调光色" RangeStart="18944" RangeEnd="19199">
+      <GroupAddress Name="新建群组地址" Address="9/2/0" />
+      <GroupAddress Name="书房柜灯带" Address="9/2/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="大腕灯" Address="9/2/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卧室壁灯" Address="9/2/6" />
+      <GroupAddress Name="主卧床头壁灯" Address="9/2/9" />
+      <GroupAddress Name="书房磁吸灯" Address="9/2/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧墙灯带" Address="9/2/46" />
+      <GroupAddress Name="主卧窗帘灯带" Address="9/2/47" />
+      <GroupAddress Name="主卫浴龛灯带" Address="9/2/48" />
+      <GroupAddress Name="东卧窗帘射灯" Address="9/2/49" />
+      <GroupAddress Name="主卫镜灯带" Address="9/2/50" />
+      <GroupAddress Name="主卫柜底灯带" Address="9/2/51" />
+      <GroupAddress Name="衣帽间灯带" Address="9/2/52" />
+      <GroupAddress Name="主卫墙灯带" Address="9/2/53" />
+      <GroupAddress Name="东卫顶灯带射灯" Address="9/2/56" />
+      <GroupAddress Name="东走廊灯带" Address="9/2/58" DPTs="DPST-7-600" />
+      <GroupAddress Name="东卧室柜子灯带" Address="9/2/61" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧窗帘灯带" Address="9/2/62" />
+      <GroupAddress Name="书房柜灯带状态" Address="9/2/102" />
+      <GroupAddress Name="占位" Address="9/2/103" />
+      <GroupAddress Name="大腕灯状态" Address="9/2/104" />
+      <GroupAddress Name="占位" Address="9/2/105" />
+      <GroupAddress Name="东卧室壁灯状态" Address="9/2/106" />
+      <GroupAddress Name="主卧床头壁灯状态" Address="9/2/109" />
+      <GroupAddress Name="书房磁吸灯状态" Address="9/2/110" />
+      <GroupAddress Name="主卧墙灯带状态" Address="9/2/146" />
+      <GroupAddress Name="主卧窗帘灯带状态" Address="9/2/147" />
+      <GroupAddress Name="主卫浴灯带" Address="9/2/148" />
+      <GroupAddress Name="东卧窗帘灯带状态" Address="9/2/149" />
+      <GroupAddress Name="主卫镜灯带状态" Address="9/2/150" />
+      <GroupAddress Name="主卫柜底灯带状态" Address="9/2/151" />
+      <GroupAddress Name="衣帽间灯带状态" Address="9/2/152" />
+      <GroupAddress Name="主卫墙灯带状态" Address="9/2/153" />
+      <GroupAddress Name="占位" Address="9/2/154" />
+      <GroupAddress Name="占位" Address="9/2/155" />
+      <GroupAddress Name="东卫顶灯带射灯状态" Address="9/2/156" />
+      <GroupAddress Name="东走廊灯带状态" Address="9/2/158" />
+      <GroupAddress Name="东卧室柜子灯带状态" Address="9/2/161" />
+      <GroupAddress Name="主卧窗帘灯带状态" Address="9/2/162" />
+      <GroupAddress Name="主卧格栅灯" Address="9/2/201" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房射灯" Address="9/2/202" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧入户射灯" Address="9/2/203" />
+      <GroupAddress Name="衣帽间射灯" Address="9/2/204" />
+      <GroupAddress Name="主卫射灯" Address="9/2/205" />
+      <GroupAddress Name="客厅设备柜射灯" Address="9/2/206" />
+      <GroupAddress Name="东卧射灯" Address="9/2/207" DPTs="DPST-1-1" />
+      <GroupAddress Name="东卫射灯" Address="9/2/208" DPTs="DPST-7-600" />
+      <GroupAddress Name="主卧射灯" Address="9/2/209" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧筒灯" Address="9/2/210" DPTs="DPST-5-1" />
+      <GroupAddress Name="东走廊射灯" Address="9/2/211" />
+      <GroupAddress Name="主卫湿区射灯色温" Address="9/2/213" />
+      <GroupAddress Name="主卧格栅灯状态" Address="9/2/221" />
+      <GroupAddress Name="书房射灯状态" Address="9/2/222" />
+      <GroupAddress Name="主卧射灯状态" Address="9/2/223" />
+      <GroupAddress Name="衣帽间射灯状态" Address="9/2/224" />
+      <GroupAddress Name="主卫射灯状态" Address="9/2/225" />
+      <GroupAddress Name="客厅设备柜灯状态" Address="9/2/226" />
+      <GroupAddress Name="东卧射灯状态" Address="9/2/227" />
+      <GroupAddress Name="东卫射灯状态" Address="9/2/228" />
+      <GroupAddress Name="主卧射灯状态" Address="9/2/229" />
+      <GroupAddress Name="主卧筒灯状态" Address="9/2/230" />
+      <GroupAddress Name="东走廊射灯状态" Address="9/2/231" />
+      <GroupAddress Name="主卫湿区射灯色温状态" Address="9/2/233" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="空调状态" RangeStart="22528" RangeEnd="24575">
+    <GroupRange Name="开关状态" RangeStart="22528" RangeEnd="22783">
+      <GroupAddress Name="东卧室空调" Address="11/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="11/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="11/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="11/0/3" />
+      <GroupAddress Name="新建群组地址" Address="11/0/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="11/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="11/0/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="11/0/7" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="11/0/8" DPTs="DPST-1-1" />
+      <GroupAddress Name="风速状态" Address="11/0/9" />
+      <GroupAddress Name="风速状态" Address="11/0/10" />
+      <GroupAddress Name="风速状态" Address="11/0/11" />
+      <GroupAddress Name="风速状态" Address="11/0/12" />
+      <GroupAddress Name="风速状态" Address="11/0/13" />
+      <GroupAddress Name="风速状态" Address="11/0/14" />
+      <GroupAddress Name="风速状态" Address="11/0/15" />
+      <GroupAddress Name="风速状态" Address="11/0/16" />
+      <GroupAddress Name="风速状态" Address="11/0/17" />
+    </GroupRange>
+    <GroupRange Name="模式状态" RangeStart="22784" RangeEnd="23039">
+      <GroupAddress Name="新建群组地址" Address="11/1/0" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="11/1/1" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="11/1/2" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="11/1/3" />
+      <GroupAddress Name="新建群组地址" Address="11/1/4" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="11/1/5" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="11/1/6" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="11/1/7" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="11/1/8" DPTs="DPST-20-105" />
+    </GroupRange>
+    <GroupRange Name="风速状态" RangeStart="23040" RangeEnd="23295">
+      <GroupAddress Name="新建群组地址" Address="11/2/0" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="11/2/1" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="11/2/2" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="11/2/3" />
+      <GroupAddress Name="新建群组地址" Address="11/2/4" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="11/2/5" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="11/2/6" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="11/2/7" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="11/2/8" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="当前温度设定" RangeStart="23296" RangeEnd="23551">
+      <GroupAddress Name="新建群组地址" Address="11/3/0" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="11/3/1" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="11/3/2" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="11/3/3" />
+      <GroupAddress Name="新建群组地址" Address="11/3/4" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="11/3/5" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="11/3/6" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="11/3/7" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="11/3/8" DPTs="DPST-9-1" />
+    </GroupRange>
+    <GroupRange Name="当前房间温度" RangeStart="23552" RangeEnd="23807">
+      <GroupAddress Name="新建群组地址" Address="11/4/0" DPTs="DPST-1-22" />
+      <GroupAddress Name="新建群组地址" Address="11/4/1" DPTs="DPST-1-22" />
+      <GroupAddress Name="新建群组地址" Address="11/4/2" DPTs="DPST-1-22" />
+      <GroupAddress Name="新建群组地址" Address="11/4/3" />
+      <GroupAddress Name="新建群组地址" Address="11/4/4" DPTs="DPST-1-22" />
+      <GroupAddress Name="新建群组地址" Address="11/4/5" DPTs="DPST-1-22" />
+      <GroupAddress Name="新建群组地址" Address="11/4/6" DPTs="DPST-1-22" />
+      <GroupAddress Name="新建群组地址" Address="11/4/7" DPTs="DPST-1-22" />
+      <GroupAddress Name="新建群组地址" Address="11/4/8" DPTs="DPST-9-1" />
+    </GroupRange>
+    <GroupRange Name="当前故障代码" RangeStart="23808" RangeEnd="24063">
+      <GroupAddress Name="新建群组地址" Address="11/5/0" />
+      <GroupAddress Name="新建群组地址" Address="11/5/1" />
+      <GroupAddress Name="新建群组地址" Address="11/5/2" />
+      <GroupAddress Name="新建群组地址" Address="11/5/3" />
+      <GroupAddress Name="新建群组地址" Address="11/5/4" />
+      <GroupAddress Name="新建群组地址" Address="11/5/5" />
+      <GroupAddress Name="新建群组地址" Address="11/5/6" />
+      <GroupAddress Name="新建群组地址" Address="11/5/7" />
+      <GroupAddress Name="新建群组地址" Address="11/5/8" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="空调开关" RangeStart="24576" RangeEnd="26623">
+    <GroupRange Name="空调开关" RangeStart="24576" RangeEnd="24831">
+      <GroupAddress Name="东卧室空调开闭" Address="12/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="书房空调开闭" Address="12/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="主卧空调开闭" Address="12/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="保姆间空调开闭" Address="12/0/3" />
+      <GroupAddress Name="客厅空调1开闭" Address="12/0/4" />
+      <GroupAddress Name="西卧室空调开闭" Address="12/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="北卧室空调开闭" Address="12/0/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="客厅2空调开闭" Address="12/0/7" />
+      <GroupAddress Name="餐厅空调开闭" Address="12/0/8" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="空调模式" RangeStart="24832" RangeEnd="25087">
+      <GroupAddress Name="新建群组地址" Address="12/1/0" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="12/1/1" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="12/1/2" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="12/1/3" />
+      <GroupAddress Name="新建群组地址" Address="12/1/4" />
+      <GroupAddress Name="新建群组地址" Address="12/1/5" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="12/1/6" DPTs="DPST-20-105" />
+      <GroupAddress Name="新建群组地址" Address="12/1/7" />
+      <GroupAddress Name="新建群组地址" Address="12/1/8" DPTs="DPST-20-105" />
+    </GroupRange>
+    <GroupRange Name="空调风速" RangeStart="25088" RangeEnd="25343">
+      <GroupAddress Name="新建群组地址" Address="12/2/0" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="12/2/1" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="12/2/2" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="12/2/3" />
+      <GroupAddress Name="新建群组地址" Address="12/2/4" />
+      <GroupAddress Name="新建群组地址" Address="12/2/5" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="12/2/6" DPTs="DPST-5-100" />
+      <GroupAddress Name="新建群组地址" Address="12/2/7" />
+      <GroupAddress Name="新建群组地址" Address="12/2/8" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="温度" RangeStart="25344" RangeEnd="25599">
+      <GroupAddress Name="新建群组地址" Address="12/3/0" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="12/3/1" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="12/3/2" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="12/3/3" />
+      <GroupAddress Name="新建群组地址" Address="12/3/4" />
+      <GroupAddress Name="新建群组地址" Address="12/3/5" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="12/3/6" DPTs="DPST-9-1" />
+      <GroupAddress Name="新建群组地址" Address="12/3/7" />
+      <GroupAddress Name="新建群组地址" Address="12/3/8" DPTs="DPST-9-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="测试" RangeStart="26624" RangeEnd="28671">
+    <GroupRange Name="APP场景" RangeStart="26624" RangeEnd="26879">
+      <GroupAddress Name="占位" Address="13/0/0" DPTs="DPST-1-10" />
+      <GroupAddress Name="厨房面板中厨场景" Address="13/0/1" Description="开闭，含厨房/岛台感应器屏蔽" />
+      <GroupAddress Name="厨房面板西厨场景" Address="13/0/2" Description="包含岛台感应器屏蔽和开启" />
+      <GroupAddress Name="西餐场景" Address="13/0/3" Description="含岛台感应器屏蔽" />
+      <GroupAddress Name="浪漫模式" Address="13/0/4" />
+      <GroupAddress Name="新建群组地址" Address="13/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="新建群组地址" Address="13/0/6" />
+    </GroupRange>
+    <GroupRange Name="新建中间组" RangeStart="26880" RangeEnd="27135">
+      <GroupAddress Name="新建群组地址" Address="13/1/0" />
+      <GroupAddress Name="新建群组地址" Address="13/1/1" DPTs="DPST-3-7" />
+    </GroupRange>
+    <GroupRange Name="新建中间组" RangeStart="27136" RangeEnd="27391">
+      <GroupAddress Name="新建群组地址" Address="13/2/0" />
+      <GroupAddress Name="新建群组地址" Address="13/2/1" DPTs="DPST-5-1" />
+      <GroupAddress Name="新建群组地址" Address="13/2/2" DPTs="DPST-5-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="浴霸" RangeStart="28672" RangeEnd="30719">
+    <GroupRange Name="新建中间组" RangeStart="28672" RangeEnd="28927">
+      <GroupAddress Name="新建群组地址" Address="14/0/0" />
+      <GroupAddress Name="新建群组地址" Address="14/0/1" />
+      <GroupAddress Name="新建群组地址" Address="14/0/2" />
+      <GroupAddress Name="新建群组地址" Address="14/0/3" />
+    </GroupRange>
+  </GroupRange>
+</GroupAddress-Export>
